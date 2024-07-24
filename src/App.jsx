@@ -1,11 +1,12 @@
-
+import Navbar from './components/Navbar'
+import Items from './components/Items'
 import './App.css'
-
 function App() {
  
   return (
     <>
-    cart
+     <Navbar/>
+     <Items/>
     </>
   )
 }

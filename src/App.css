@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: rgb(80, 69, 234);
+    color: white;
+    height: 10vh;
+    display: flex;
+    
+}
+.nav{
+   width: 70%;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ 
+}
+.nav-heading, .cart-btn{
+    font-size: 1.5rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all linear 0.3s;
+}
+.nav-heading:hover, .cart-btn:hover{
+  transform: scale(1.05);
+}

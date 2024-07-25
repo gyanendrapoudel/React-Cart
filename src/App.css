@@ -28,5 +28,36 @@ body{
   transform: scale(1.05);
 }
 .items{
-    
+    margin-top: 2rem;
+    display: grid;
+    place-items: center;
+}
+.single-item{
+    width: 70%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(241, 239, 239);
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 5px 2px  rgb(255, 254, 254);
+}
+.item-description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+}
+.btn{
+  border: none;
+  background-color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+.btn:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+
 }

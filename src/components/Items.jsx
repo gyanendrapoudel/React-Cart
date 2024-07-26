@@ -7,12 +7,21 @@ const Items = () => {
       { id: '1', img: '', name: '' },
     ]
   return (
-    <div className="items">
-        <h4>Your Bag</h4>
-        {items.map((item)=>{
-            return <SingleItem key={item.id} {...item}/>
+    <>
+      <div className="items">
+        <div className="title">Your Bag</div>
+        {items.map((item) => {
+          return <SingleItem key={item.id} {...item} />
         })}
-    </div>
+      </div>
+      <div className="total">
+        <div>total</div>
+        <div className="totalPrice">$2000</div>
+      </div>
+      <div className="clear-cart">
+        <button>clear cart</button>
+      </div>
+    </>
   )
 }
 export default Items

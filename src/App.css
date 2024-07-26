@@ -59,5 +59,18 @@ body{
 .btn:hover{
     transform: scale(1.05);
     cursor: pointer;
+}
+.number{
+    display: grid;
+    place-items: center;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgb(49, 181, 84);
 
+ 
+    
+}
+.icons{
+   font-size: 1.5rem;
+   color: rgb(49, 181, 84);
 }

@@ -1,4 +1,6 @@
-const SingleItem = ({name,img ,id}) => {
+import { FaArrowAltCircleUp } from 'react-icons/fa'
+import { FaArrowCircleDown } from 'react-icons/fa'
+const SingleItem = ({ name, img, id }) => {
   return (
     <div className="single-item">
       <div className="item-description">
@@ -9,9 +11,9 @@ const SingleItem = ({name,img ,id}) => {
         </div>
       </div>
       <div className="number">
-        <i>icon1</i>
-         <div>number</div>
-        <i>icon2</i>
+        <FaArrowAltCircleUp className='icons'/>
+        <div>1</div>
+        <FaArrowCircleDown className='icons' />
       </div>
     </div>
   )

@@ -19,6 +19,7 @@ body{
    display: flex;
    justify-content: space-between;
    align-items: center;
+   position: relative;
  
 }
 .nav-heading, .cart-btn{
@@ -29,6 +30,15 @@ body{
 }
 .nav-heading:hover, .cart-btn:hover{
   transform: scale(1.05);
+}
+.item-number{
+    position: absolute;
+    top: 2px;
+    right: -15px;
+    background-color: var(--primary-color);
+    padding: 0.3rem 0.6rem;
+    border-radius: 50%;
+    font-size: 1.2rem;
 }
 .items{
  
@@ -99,6 +109,9 @@ body{
   border-radius: 0.5rem;
   text-transform: capitalize;
   transition: all 0.2s linear;
+  color: var(--primary-color);
+  letter-spacing: 1px;
+  font-weight: 500;
 }
 .btn:hover{
     transform: scale(1.05);

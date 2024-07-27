@@ -5,6 +5,9 @@ const Navbar = () => {
       <div className="nav">
         <p className='nav-heading'>Navbar</p>
         <button className='cart-btn'> <BsCartPlus /> </button>
+        <div className="item-number">
+          1
+        </div>
       </div>
     </div>
   )

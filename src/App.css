@@ -46,7 +46,7 @@ body{
     margin: 2rem ;
     display: grid;
     place-items: center; 
-
+  
 }
 .title{
     font-size: 2rem;
@@ -88,10 +88,8 @@ body{
     margin-top: 1rem ;
     display: flex;
     justify-content: space-between;
-    background-color: rgb(241, 239, 239);
     padding: 1rem;
     border-radius: 1rem;
-    box-shadow: 0 0 5px 2px  rgb(255, 254, 254);
 }
 .item-description{
     display: flex;
@@ -130,4 +128,5 @@ body{
 .icons{
    font-size: 1.5rem;
    color: var(--primary-color);
+   cursor: pointer;
 }
